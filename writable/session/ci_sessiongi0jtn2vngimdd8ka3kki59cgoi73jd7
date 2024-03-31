@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1711518766;message|s:29:"invalid username or password ";__ci_vars|a:2:{s:7:"message";s:3:"new";s:13:"_ci_old_input";s:3:"new";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:7:"1232356";s:6:"submit";s:0:"";}}
