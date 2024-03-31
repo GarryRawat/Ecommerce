@@ -1,9 +1,9 @@
 <div class="container">
-    <h1>Add product</h1>
+<h1 class="text-center text-dark mt-4">Add Product</h1>
     <div class="row">
         <div class="container-fluid px-1 py-5 mx-auto">
             <div class="row d-flex justify-content-center">
-                <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center  shadow-lg p-4">
                     <form action="<?= base_url('addproduct')?>" method="POST" enctype="multipart/form-data">
                         <!-- 2 column grid layout with text inputs for the first and last names -->
                         <div class="row mb-4">
@@ -44,9 +44,12 @@
                                 <input type="file" name="image" class="form-control" id="floatingInput" name="fileUpload">
                                
                             </div>
-                            <input data-mdb-ripple-init type="submit" name="submit" class="btn btn-primary btn-block mb-4">Add Product</input>
+                            </div>
+                            <input data-mdb-ripple-init type="submit" name="submit" class="btn btn-primary btn-block mb-4"/>
+                            
                     </form>
-                </div>
+                  
+               
             </div>
         </div>
     </div>
@@ -58,4 +61,8 @@ $(document).ready(function() {
     height: 300
   });
 });
+
+
+
+
 </script>

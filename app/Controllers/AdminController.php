@@ -55,16 +55,20 @@ public function addProductPage(){
 
             if($this->productModel->insert($data)){
              
-             session()->setFlashdata('message','data insert successfully');
-             return redirect('list');
+            //  session()->setFlashdata('message','data insert successfully');
+            //  return redirect('list');
+            $response = array("status" => "success", "message" => "Data inserted successfully");
             }
             else{
-                session()->setFlashdata('message','product not add ');
+                $response = array("status" => "error", "message" => "Product not added");
+                // session()->setFlashdata('message','product not add ');
             }
+           
         }
         else{
-         session()->setFlashdata('message','image not uploded');
+            $response = array("status" => "error", "message" => "image not uploaded");
         }
+        echo json_encode($response);
 
       
     }

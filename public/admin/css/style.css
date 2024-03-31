@@ -1,21 +1,23 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EB1616;
+    /* --primary: #EB1616; */
     /* --secondary: #191C24; */
-    --secondary: #5e72e4;
-    --light: black;
+    --secondary: #36405e;
+    --light: #ffffff;
     /* --dark: #000000; */
     --dark:  #ffffff;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
-    color:#5e72e4  !important;
+    color:skyblue !important;
 }
 
-.bg-secondary{
-   background-color: #5e72e4 !important; 
+bg-light{
+    /* background-color: rgb(215, 250, 248) !important; */
 }
-.bg-dark{
-    background-color: #5e72e4 !important; 
+
+
+.navbar{
+    background-color: #36405e;
 }
 
 .back-to-top {
@@ -142,9 +144,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: #36405e;
+    font-weight: 700;
     background: var(--dark);
-    border-color: var(--primary);
+    /* border-color: var(--primary);  */
 }
 
 .sidebar .navbar .navbar-nav .nav-link i {
@@ -153,7 +157,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--dark);
+    /* background: var(--dark); */
+    color: skyblue;
     border-radius: 40px;
 }
 
@@ -185,19 +190,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 
 .sidebar .navbar .dropdown-item:hover,
 .sidebar .navbar .dropdown-item.active {
-    background: var(--dark);
+    color: black;
 }
 
 .content .navbar .navbar-nav .nav-link {
     margin-left: 25px;
     padding: 12px 0;
-    color: var(--light);
+    color: skyblue;
     outline: none;
 }
 
 .content .navbar .navbar-nav .nav-link:hover,
 .content .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
 }
 
 .content .navbar .sidebar-toggler,
@@ -217,7 +222,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 
 .content .navbar .dropdown-item:hover,
 .content .navbar .dropdown-item.active {
-    background: var(--dark);
+    /* background: var(--dark); */
+    background-color: black;
 }
 
 .content .navbar .dropdown-toggle::after {
@@ -298,4 +304,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 .testimonial-carousel .owl-dot.active {
     background: var(--dark);
     border-color: var(--primary);
+}
+.navbar-expand{
+    background-color: #36405e;
 }

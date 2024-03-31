@@ -25,7 +25,7 @@
             <td><?= $data['product_category'];?></td>
             <td><?= $data['product_name'];?></td>
             <td><?= $data['product_price'];?></td>
-            <td><?= $data['image'];?></td>
+            <td><img src="<?= base_url()?>uploads/<?= $data['image']?>" style="width: 100px; height: 100px; border-radius: 50px;"></td>
             <td><?= $data['created_at'];?></td>
           
         </tr>
